@@ -1,6 +1,7 @@
 package br.edu.ifsp.scl.ads.prdm.sc3039005.calculadora
 
 import android.os.Bundle
+import android.widget.Toast
 import br.edu.ifsp.scl.ads.prdm.sc3039005.calculadora.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
 import net.objecthunter.exp4j.ExpressionBuilder
@@ -59,8 +60,14 @@ class MainActivity : AppCompatActivity() {
                     binding.resultado.text = resultado
                 }
             }
+            catch (e: ArithmeticException) {
+                // Caso específico: divisão por zero
+                binding.resultado.text = ""
+                binding.expressao.text = ""
+                Toast.makeText(this, "Erro: divisão por zero", Toast.LENGTH_SHORT).show()
+            }
             catch (e: Exception) {
-                binding.resultado.text = "Erro"
+                binding.resultado.text = "Error :("
                 binding.expressao.text = ""
             }
         }
