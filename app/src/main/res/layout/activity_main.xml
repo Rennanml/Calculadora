@@ -33,4 +33,139 @@
         android:ellipsize="end"
         android:textSize="20sp"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clear"
+            style="@style/Operators_Button"
+            android:text="@string/c"/>
+
+        <Button
+            android:id="@+id/divisao"
+            style="@style/Operators_Button"
+            android:text="@string/barra"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numero_sete"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_sete"/>
+
+        <Button
+            android:id="@+id/numero_oito"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_oito"/>
+
+        <Button
+            android:id="@+id/numero_nove"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_nove"/>
+
+        <Button
+            android:id="@+id/multiplicacao"
+            style="@style/Operators_Button"
+            android:text="@string/multiplicacao"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numero_quatro"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_quatro"/>
+
+        <Button
+            android:id="@+id/numero_cinco"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_cinco"/>
+
+        <Button
+            android:id="@+id/numero_seis"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_seis"/>
+
+        <Button
+            android:id="@+id/subtracao"
+            style="@style/Operators_Button"
+            android:text="@string/subtracao"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numero_um"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_um"/>
+
+        <Button
+            android:id="@+id/numero_dois"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_dois"/>
+
+        <Button
+            android:id="@+id/numero_tres"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_tres"/>
+
+        <Button
+            android:id="@+id/adicao"
+            style="@style/Operators_Button"
+            android:text="@string/adicao"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ponto"
+            style="@style/Numbers_Button"
+            android:text="@string/ponto"/>
+
+        <Button
+            android:id="@+id/numero_zero"
+            style="@style/Numbers_Button"
+            android:text="@string/numero_zero"/>
+
+        <ImageButton
+            android:id="@+id/apagar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/backspace_vector"
+            android:contentDescription="@string/apagar"
+            android:scaleType="centerInside"
+            android:layout_margin="0.5dp"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/igual"
+            style="@style/Operators_Button"
+            android:text="@string/igual"/>
+    </LinearLayout>
+
 </LinearLayout>

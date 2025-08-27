@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="c">C</string>
+    <string name="barra">/</string>
+    <string name="numero_sete">7</string>
+    <string name="numero_oito">8</string>
+    <string name="numero_nove">9</string>
+    <string name="multiplicacao">X</string>
+    <string name="numero_quatro">4</string>
+    <string name="numero_cinco">5</string>
+    <string name="numero_seis">6</string>
+    <string name="subtracao">-</string>
+    <string name="numero_um">1</string>
+    <string name="numero_dois">2</string>
+    <string name="numero_tres">3</string>
+    <string name="adicao">+</string>
+    <string name="ponto">.</string>
+    <string name="numero_zero">0</string>
+    <string name="Apagar">Apagar</string>
+    <string name="igual">=</string>
+    <string name="apagar">Apagar</string>
+</resources>
